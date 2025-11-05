@@ -1272,6 +1272,22 @@ int main() {
         model9 = glm::scale(model9, glm::vec3(0.5f, 0.5f, 0.5f));
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model9));
         Piramide.Draw(shader);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         // ====== FIN BLOQUE TAL CUAL ======
 
         // -------- Procedural (mesa, silla, etc.) con gProg
